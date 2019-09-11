@@ -1,0 +1,18 @@
+module draw_wall3 (	// PRIMEIRA LINHA
+	ipixel_y,
+	owall_RGB3,
+	owall_on3
+);
+
+input [9:0]ipixel_y;
+output [9:0]owall_RGB3;
+output owall_on3;
+
+localparam WALL_Y_S3 = 130; // start y coordinate
+localparam WALL_HEIGHT3 = 10;
+
+assign owall_RGB3 = 10'b0000000000;
+
+assign owall_on3 = (WALL_Y_S3 < ipixel_y && ipixel_y < WALL_Y_S3 + WALL_HEIGHT3);
+
+endmodule 

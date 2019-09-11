@@ -1,0 +1,174 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(connector
+	(pt 784 184)
+	(pt 584 184)
+)
+(connector
+	(pt 584 200)
+	(pt 784 200)
+)
+(connector
+	(pt 584 216)
+	(pt 784 216)
+)
+(connector
+	(pt 584 232)
+	(pt 784 232)
+)
+(connector
+	(pt 584 248)
+	(pt 784 248)
+)
+(connector
+	(pt 592 376)
+	(pt 680 376)
+)
+(connector
+	(pt 680 376)
+	(pt 680 280)
+)
+(connector
+	(pt 680 280)
+	(pt 784 280)
+)
+(connector
+	(pt 504 336)
+	(pt 544 336)
+)
+(connector
+	(pt 544 336)
+	(pt 544 360)
+)
+(connector
+	(pt 544 360)
+	(pt 568 360)
+)
+(connector
+	(pt 504 416)
+	(pt 544 416)
+)
+(connector
+	(pt 544 416)
+	(pt 544 384)
+)
+(connector
+	(pt 544 384)
+	(pt 568 384)
+)
+(connector
+	(pt 504 384)
+	(pt 528 384)
+)
+(connector
+	(pt 528 384)
+	(pt 528 448)
+)
+(connector
+	(pt 528 448)
+	(pt 576 448)
+)
+(connector
+	(pt 576 448)
+	(pt 576 400)
+)
+(connector
+	(pt 504 464)
+	(pt 584 464)
+)
+(connector
+	(pt 584 464)
+	(pt 584 392)
+)
+(connector
+	(pt 288 192)
+	(pt 464 192)
+)
+(connector
+	(pt 288 216)
+	(pt 464 216)
+)
+(connector
+	(pt 464 248)
+	(pt 384 248)
+)
+(connector
+	(pt 384 464)
+	(pt 424 464)
+)
+(connector
+	(pt 424 384)
+	(pt 384 384)
+)
+(connector
+	(pt 464 264)
+	(pt 400 264)
+)
+(connector
+	(pt 400 416)
+	(pt 424 416)
+)
+(connector
+	(pt 400 264)
+	(pt 400 416)
+)
+(connector
+	(pt 384 248)
+	(pt 384 384)
+)
+(connector
+	(pt 384 384)
+	(pt 384 464)
+)
+(junction (pt 384 384))
+(text "vga_controller" (rect 504 296 585 310)(font "Arial" (font_size 8)))
+(text "iCLK_27MHz" (rect 272 168 343 182)(font "Arial" (font_size 8)))
+(text "ireset_n" (rect 280 200 326 214)(font "Arial" (font_size 8)))
+(text "vga_controller" (rect 496 216 577 230)(font "Arial" (font_size 8)))
+(text "oVGA_CLK" (rect 672 168 738 182)(font "Arial" (font_size 8)))
+(text "oVGA_ACTIVE" (rect 672 184 758 198)(font "Arial" (font_size 8)))
+(text "oVGA_HS" (rect 672 200 731 214)(font "Arial" (font_size 8)))
+(text "oVGA_VS" (rect 672 216 732 230)(font "Arial" (font_size 8)))
+(text "oVGA_SYNC" (rect 672 232 748 246)(font "Arial" (font_size 8)))
+(text "ADV7123" (rect 832 232 887 246)(font "Arial" (font_size 8)))
+(text "RGB" (rect 696 264 721 278)(font "Arial" (font_size 8)))
+(text "RGB" (rect 584 328 609 342)(font "Arial" (font_size 8)))
+(text "mux" (rect 584 344 607 358)(font "Arial" (font_size 8)))
+(text "draw_wall" (rect 440 352 501 366)(font "Arial" (font_size 8)))
+(text "draw_bar" (rect 440 432 496 446)(font "Arial" (font_size 8)))
+(text "wall_on" (rect 456 376 500 390)(font "Arial" (font_size 8)))
+(text "bar_on" (rect 464 456 504 470)(font "Arial" (font_size 8)))
+(text "wall_RGB" (rect 448 328 504 342)(font "Arial" (font_size 8)))
+(text "bar_RGB" (rect 456 408 507 422)(font "Arial" (font_size 8)))
+(text "pixel_x" (rect 424 232 464 246)(font "Arial" (font_size 8)))
+(text "pixel_y" (rect 424 248 464 262)(font "Arial" (font_size 8)))
+(line (pt 464 224)(pt 472 216))
+(line (pt 472 216)(pt 464 208))
+(line (pt 592 368)(pt 592 384))
+(line (pt 568 408)(pt 592 384))
+(line (pt 592 368)(pt 568 344))
+(line (pt 568 408)(pt 568 344))
+(rectangle (rect 360 160 648 488))
+(rectangle (rect 464 176 584 272))
+(rectangle (rect 784 176 920 296))
+(rectangle (rect 424 328 504 392))
+(rectangle (rect 424 408 504 472))

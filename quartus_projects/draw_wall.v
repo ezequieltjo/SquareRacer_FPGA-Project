@@ -1,0 +1,18 @@
+module draw_wall ( // PRIMEIRA COLUNA
+	ipixel_x,
+	owall_RGB,
+	owall_on
+);
+
+input [9:0]ipixel_x;
+output [9:0]owall_RGB;
+output owall_on;
+
+localparam WALL_X_S = 250; // start x coordinate
+localparam WALL_WIDTH = 10;
+
+assign owall_RGB = 10'b0000000000;
+
+assign owall_on = (WALL_X_S < ipixel_x  && ipixel_x < WALL_X_S + WALL_WIDTH);
+
+endmodule 

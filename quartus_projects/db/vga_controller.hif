@@ -1,0 +1,502 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+vga_controller
+# storage
+db|vga_controller.(1).cnf
+db|vga_controller.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+vga_controller.v
+f5e22b9553dd31247e1c9de45e66d13
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+H_FRONT
+16
+PARAMETER_SIGNED_DEC
+DEF
+H_RETRACE
+96
+PARAMETER_SIGNED_DEC
+DEF
+H_BACK
+48
+PARAMETER_SIGNED_DEC
+DEF
+H_DISPLAY
+640
+PARAMETER_SIGNED_DEC
+DEF
+H_ACTIVE
+688
+PARAMETER_SIGNED_DEC
+DEF
+H_TOTAL
+800
+PARAMETER_SIGNED_DEC
+DEF
+V_FRONT
+10
+PARAMETER_SIGNED_DEC
+DEF
+V_RETRACE
+2
+PARAMETER_SIGNED_DEC
+DEF
+V_BACK
+33
+PARAMETER_SIGNED_DEC
+DEF
+V_DISPLAY
+480
+PARAMETER_SIGNED_DEC
+DEF
+V_ACTIVE
+688
+PARAMETER_SIGNED_DEC
+DEF
+V_TOTAL
+525
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+vga_controller:controller
+}
+# macro_sequence
+
+# end
+# entity
+draw_bar3
+# storage
+db|vga_controller.(6).cnf
+db|vga_controller.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_bar3.v
+668957278e026f94c5d7cfba9b77ee
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_bar3:bar3
+}
+# macro_sequence
+
+# end
+# entity
+draw_bar4
+# storage
+db|vga_controller.(7).cnf
+db|vga_controller.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_bar4.v
+7d90eb7fff31e82375970efee657ac9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_bar4:bar4
+}
+# macro_sequence
+
+# end
+# entity
+draw_wall
+# storage
+db|vga_controller.(3).cnf
+db|vga_controller.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_wall.v
+2369d67d8c595aee44dffeb4adf42f4
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_wall:wall
+}
+# macro_sequence
+
+# end
+# entity
+draw_wall2
+# storage
+db|vga_controller.(5).cnf
+db|vga_controller.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_wall2.v
+7656b51d87f1544f8a859a60d8e1ae
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_wall2:wall2
+}
+# macro_sequence
+
+# end
+# entity
+draw_wall6
+# storage
+db|vga_controller.(11).cnf
+db|vga_controller.(11).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_wall6.v
+f17fafa12db0739aa8a5d8177cdbcf8a
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# macro_sequence
+
+# end
+# entity
+draw_wall3
+# storage
+db|vga_controller.(8).cnf
+db|vga_controller.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_wall3.v
+7720a6c248b54c83b2a9c42b2059dd3
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_wall3:wall3
+}
+# macro_sequence
+
+# end
+# entity
+draw_wall4
+# storage
+db|vga_controller.(9).cnf
+db|vga_controller.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_wall4.v
+4a75c725e8b563125a3726eb7661c3
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_wall4:wall4
+}
+# macro_sequence
+
+# end
+# entity
+draw_wall5
+# storage
+db|vga_controller.(10).cnf
+db|vga_controller.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_wall5.v
+88a0c4829e9c85e549fca63ecb8f096
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_wall5:wall5
+}
+# macro_sequence
+
+# end
+# entity
+vga_test
+# storage
+db|vga_controller.(0).cnf
+db|vga_controller.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+vga_test.v
+83fbbeafa3db5585ddcf69d9dca994
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+draw_bar
+# storage
+db|vga_controller.(2).cnf
+db|vga_controller.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_bar.v
+f8e44ac62a68a229b156918ef6799bf4
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_bar:bar
+}
+# macro_sequence
+
+# end
+# entity
+draw_bar2
+# storage
+db|vga_controller.(4).cnf
+db|vga_controller.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+draw_bar2.v
+f096b784f4183d9fa67719de45b87b5
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+draw_bar2:bar2
+}
+# macro_sequence
+
+# end
+# complete
+
